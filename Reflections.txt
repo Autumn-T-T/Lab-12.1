@@ -1,0 +1,19 @@
+Difference between res.send() and res.sendFile()?
+
+res.send() sends text, JSON, or HTML directly as a response.
+
+res.sendFile() sends an actual file from disk, like your HTML files.
+
+You use res.sendFile() when serving real HTML files stored in public/.
+
+Why is path necessary?
+
+path.join(__dirname, 'public/index.html') ensures the server finds the file regardless of OS.
+
+Using just 'public/index.html' might break on Windows vs Linux due to path differences.
+
+Adding a third page (e.g., menu)
+
+Create menu.html in public/
+
+Add a new route in server.js: app.get('/menu', (req, res) => res.sendFile(path.join(__dirname, 'public/menu.html')));

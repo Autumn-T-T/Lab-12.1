@@ -6,12 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Autumn-T-T/Lab-12.1.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Autumn-T-T/Lab-12.1/issues"
+  },
+  "homepage": "https://github.com/Autumn-T-T/Lab-12.1#readme",
   "dependencies": {
-    "expres": "^0.0.5",
     "express": "^5.2.1"
   }
 }

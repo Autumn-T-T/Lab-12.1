@@ -1,0 +1,27 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFF4E6; /* soft cream */
+    color: #5C3A21; /* warm brown text */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #A0522D; /* richer brown for headings */
+    margin-top: 50px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+a {
+    color: #D2691E; /* chocolate-colored links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
